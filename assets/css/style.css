@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    /*background-image: url(./img/8219592_web_development_coding_programming_binary_icon.png);
+    background-repeat: no-repeat;*/
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 318px auto;
+    height: 50px;
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: rgba(77, 138, 196, 0.493);
+    padding: 20px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
+.relogio {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: aliceblue; 
+   border-radius: 20px;
+   font-size: 80px;
+   height: 100px;
+}
+
+.buttom {
+    display: flex;
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: rgba(77, 138, 196, 0.493);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.iniciar {
+    font-size: 1em;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+
+.pausar {
+    font-size: 1em;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+
+.zerar {
+    font-size: 1em;
+    border-radius: 50px;
+    border-color: aliceblue;
+}
+
+footer {
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    height: 1px ;
+
+    background-color: black;
+
+}
+
+.author {   
+    margin-left: 15px;
+}
+
+.email {
+    margin-left: 15px;
+
+}
+.github {
+    margin-left: 15px;
+    
+}
+
